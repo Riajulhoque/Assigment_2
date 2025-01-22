@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.button{
+  margin-top: 30px;
+  a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #FEA301;
+    margin: 20px 10px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-family:Quicksand;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  &:hover a{
+    box-shadow: none;
+  }
+}
+.navber{
+  /* margin-top: 30px; */
+  display: flex;
+  justify-content: space-around;
+  .logo{
+    display: flex;
+    img{
+      margin-left: -30px;
+    }
+    h2{
+      margin-top: 20px;
+    }
+  }
+  .manu{
+    margin-top: 30px;
+    li{
+
+      display: inline-block;
+      list-style: none;
+    }
+    a{
+      text-decoration: none;
+      margin: 20px 10px;
+      padding: 15px 30px;
+      border-radius: 20px;
+      font-family:Quicksand;
+      font-size: 16px;
+      font-weight: 600;
+      border: 2px solid #ffff;
+      &:hover{
+        border: 2px solid ;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    }
+  }
+  
+}
+/* banner section starts here */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  .containt{
+    width: 50%;
+    margin-top: 150px;
+    h2{
+      font-family:Quicksand;
+      font-size: 50px;
+      font-weight: 600;
+    }
+    p{
+      margin-top: 30px;
+      font-family:Quicksand;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .button{
+      margin-top: 50px;
+      a{
+        border-radius: 8px;
+        background-color: black;
+      }
+    }
+  }
+}
+/* banner section ends here */
+/* Standard Curriculum section starts here */
+#Curriculum{
+  background-image: url(../assets/bg.png);
+  height: 800px;
+  h2{
+    font-family:Quicksand;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 80px;
+  }
+  .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    .card{
+      align-items: center;
+      width: 360px;
+      height: 460px;
+      /* border: 2px solid red; */
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      /* background-image: linear-gradient(to bottom, #DEF5FF,#fff ); */
+      h3{
+        margin-top: 20px;
+        font-family:Quicksand;
+        font-size: 24px;
+        font-weight: 700;
+      }
+      p{
+        margin-top: 20px;
+        font-family:Quicksand;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 0 25px;
+      }
+      span{
+        a{
+          text-decoration: none;
+          font-family:Quicksand;
+          font-size: 15px;
+          font-weight: 600;
+        }
+      }
+      img{
+        margin-top: 80px;
+      }
+    }
+  }
+}
+/* Standard Curriculum section ends here */
+/* our story section starts here */
+#story{
+  /* background-image: linear-gradient(to top, #FEC153,#fff ); */
+  background-image: url(../assets/bg.png);
+  height: 870px;
+  h2{
+    font-family:Quicksand;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 80px;
+  }
+  .story{
+    display: flex;
+    justify-content: space-between;
+    .bigStory{
+      margin-top: 60px;
+      margin-left: 20px;
+      width: 40%;
+      border-radius: 20px;
+      background-color: #fff;
+      img{
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+      }
+      .button{
+        margin-top: -15px;
+        display: inline-block;
+      }
+      h3{
+        margin-top: 70px;
+        font-family:Quicksand;
+        font-size: 24px;
+        font-weight: 700;
+        padding: 0 25px;
+      }
+      p{
+        /* margin-top: 30px; */
+        font-family:Quicksand;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 30px 25px;
+      }
+    }
+    .bigCards{
+      width: 58%;
+      display: inline-block;
+      margin-top: 40px;
+      
+      .card{
+        margin-top: 20px;
+        margin-left: 20px;
+        display: inline-block;
+        width: 45%;
+        height: 300px;
+        background-color: #fff;
+        border-radius: 20px;
+        img{
+          width: 100%;
+          border-radius: 20px 20px 0 0;
+        }
+        .button{
+          display: inline-block;
+          margin-top: -25px;
+          a{
+            padding: 10px 15px;
+          }
+        }
+        h3{
+          margin-top: 20px;
+          font-family:Quicksand;
+          font-size: 20px;
+          font-weight: 700;
+          padding: 0px 25px;
+        }
+      }
+    }
+  }
+  span{
+      .button{
+        margin: 80px 40% 0px;
+        text-align: center;
+        /* margin-top: 80px; */
+        display: inline-block;
+        a{
+          border-radius: 8px;
+          background-color: black;
+        }
+      }
+    }
+  }
+
+/* our story section ends here */
+/* futter section starts here */
+#Contact{
+  padding: 80px 0px;
+  background-color: #01ACFD;
+  .contact{
+    display: flex;
+    justify-content: space-around;
+    .bio{
+      width:35% ;
+      /* padding: 0px 90px; */
+      /* border: 2px solid red; */
+      .lo{
+        display: flex;
+        h2{
+          color: #fff;
+          /* margin-bottom: 30px; */
+        }
+      }
+      p{
+        margin-top: 20px;
+        font-family:Quicksand;
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+      }
+    }
+    .manus{
+      width: 15%;
+      h3{
+        color: #fff;
+        padding-bottom: 15px;
+      }
+      li{
+        list-style: none;
+      }
+      a{
+        line-height: 30px;
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    .social{
+      h3{
+        color: #fff;
+        padding-bottom: 25px;
+      }
+
+    }
+  }
+}
+/* futter section ends here */
