@@ -282,3 +282,29 @@
   }
 }
 /* futter section ends here */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightblue;
+    .navber{
+      display: none;
+    }
+    .minNav{
+      display: flex;
+      justify-content: space-between;
+      background-color: #fff;
+      height: 100px;
+
+      .logo{
+        margin-top: 15px;
+      }
+      .manu{
+        margin-top: 25px;
+        a{
+          font-weight: 700;
+          font-size: 35px;
+        }
+      }
+    }
+    /* min nav ends here */
+  }
+}
