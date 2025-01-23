@@ -325,7 +325,7 @@ p{
 @media screen and (max-width: 399px) {
   body {
     /* background-color: lightblue; */
-    .navber,.banner,.slider,#story{
+    .navber,.banner{
       display: none;
     }
     .minNav{
@@ -382,8 +382,8 @@ p{
     /* min banner ends here */
     /* min Standard Curriculum section starts here  */
     #Curriculum{
-      /* background-image: url(../assets/bg.png);
-      height: 700px; */
+      /* background-image: url(../assets/bg.png); */
+      height: 1200px; 
       padding-bottom: 30px;
       h2{
         font-size: 30px;
@@ -425,66 +425,66 @@ p{
           }
         }
       }
-    } */
-    /* min Standard Curriculum section ends here  */
-    /* min our story section starts here*/
-    #minstory{
-      /* height: 870px; */
+      .slider{
+        display: none;
+      }
+    } 
+    #story{
+      height: 1300px; 
       h2{
         font-size: 30px;
-        font-weight: 700; 
-        margin-top: 80px;
+        font-weight: 600;
+        margin-top: 90px;
       }
       .story{
-        flex-direction: column;
+        /* display: flex;
+        justify-content: space-between; */
+        .bigStory{
+          display: none;
+        }
         .bigCards{
           width: 100%;
-          /* display: inline-block; */
+          display: inline-block;
           margin-top: 40px;
           
           .card{
-            margin-top: 20px;
-            margin-left: 20px;
             display: inline-block;
-            width: 45%;
-            height: 300px;
-            background-color: #fff;
-            border-radius: 20px;
+            width: 48%;
+            height: 250px;
             img{
               width: 100%;
               border-radius: 20px 20px 0 0;
             }
             .button{
-              display: inline-block;
-              margin-top: -25px;
+              /* display: inline-block; */
+              margin-top: -35px;
               a{
-                padding: 10px 15px;
+                font-size: 10px;
+
+                padding: 8px 8px;
               }
             }
             h3{
-              margin-top: 20px;
-              font-family:Quicksand;
-              font-size: 20px;
-              font-weight: 700;
-              padding: 0px 25px;
+              margin-top: 16px;
+              font-size: 16px;
+              font-weight: 600;
+              padding: 0px 10px;
             }
           }
         }
       }
       span{
-          .button{
-            margin: 80px 40% 0px;
-            text-align: center;
-            /* margin-top: 80px; */
-            display: inline-block;
-            a{
-              border-radius: 8px;
-              background-color: black;
-            }
+        .button{
+          margin: 0px;
+          margin-left: 20%;
+          margin-top: 50px;
+          a{
+            border-radius: 8px;
+            background-color: black;
           }
         }
-      } 
-    /* min our story section ends here*/
+      }
+    /* min Standard Curriculum section ends here  */
     /* min contact */
     #Contact{
       .contact{
@@ -537,4 +537,51 @@ p{
       }
     }
     }
+    #Contact{
+      .contact{
+        flex-direction: column;
+        align-items: center;
+        .bio{
+          width:100% ;
+          .lo{
+            display: flex;
+            margin-left: 20%;
+            h2{
+              color: #fff;
+              /* margin-bottom: 30px; */
+            }
+          }
+          p{
+            margin-top: 10px;
+            font-size: 15px;
+            font-weight: 500;
+            text-align: center;
+          }
+        }
+        .manus{
+          width: 15%;
+          text-align: center;
+          h3{
+            color: #fff;
+            padding-bottom: 15px;
+          }
+          li{
+            list-style: none;
+          }
+          a{
+            line-height: 30px;
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+        .social{
+          h3{
+            color: #fff;
+            padding-bottom: 25px;
+          }
+    
+        }
+      }
+    }
+  }
 }
